@@ -7,4 +7,5 @@ export interface jobType {
     location: string;
     description: string;
     employmentType: string;
+    createdAt: Date;
   }

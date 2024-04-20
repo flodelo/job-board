@@ -22,12 +22,14 @@ const JobCard = ({ job }: JobsCardProps) => {
             />
             <h2 className="text-sm">{job.author}</h2>
           </div>
-          <h2>{job.salary}</h2>
+          <h2>
+          {job.salary > 0 ? job.salary + " € brut/an" : ""}</h2>
         </div>
 
         <div className="mt-3 text-xl">
-          <h3>{job.name}</h3>
+          <h3><b>{job.name}</b></h3>
           <p>{job.location}</p>
+          <p className="text-sm">Publié le {job.createdAt.toLocaleDateString()}</p>
           <span className="bg-purple-600 text-xs px-3 rounded-md text-white">
             {job.employmentType}
           </span>

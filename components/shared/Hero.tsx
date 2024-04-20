@@ -16,7 +16,7 @@ const Hero = ({jobs}) => {
             </span>
             , Que Vous Méritez
           </h1>
-          <span className="font-thin">
+          <span className="text-3xl font-thin">
             100 offres premium, le job de vos rêves vous attend !
           </span>
         </div>

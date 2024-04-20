@@ -152,9 +152,9 @@ const CreateForm = () => {
                     "opacity-50 cursor-default"
                 )}
               >
-                <option value="Full Time">CDI</option>
-                <option value="Part Time">CDD</option>
-                <option value="Temporary">Intérim</option>
+                <option value="CDI">CDI</option>
+                <option value="CDD">CDD</option>
+                <option value="Intérim">Intérim</option>
               </select>
             </div>
           </div>
