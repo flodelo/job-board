@@ -88,7 +88,7 @@ const CreateForm = () => {
             />
             <Input
               id="salary"
-              label="Salaire"
+              label="Salaire annuel (brut - approx.)"
               errors={errors}
               disabled={isSubmitting}
               register={{

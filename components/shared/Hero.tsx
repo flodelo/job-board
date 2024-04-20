@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchForm from "./SearchForm";
 
-const Hero = () => {
+const Hero = ({jobs}) => {
   return (
     <div
       id="home"
@@ -20,7 +20,7 @@ const Hero = () => {
             100 offres premium, le job de vos rêves vous attend !
           </span>
         </div>
-        <SearchForm />
+        <SearchForm jobs={jobs} />
       </div>
     </div>
   );
