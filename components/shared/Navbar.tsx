@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <div className="max-md:flex justify-center items-center gap-10">
           <Link href={"/create"}>
-            <Button>Post a Job</Button>
+            <Button>Publier une offre</Button>
           </Link>
 
           <div
