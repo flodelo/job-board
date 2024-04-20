@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
 import Navbar from '../components/shared/Navbar';
-import Hero from "@/components/shared/Hero";
 import { EdgeStoreProvider } from "@/lib/edgestore";
 
 const raleway = Raleway({ subsets: ["latin"],
@@ -24,7 +23,6 @@ export default function RootLayout({
       <body className={raleway.className}>
       <EdgeStoreProvider>
         <Navbar />
-        <Hero />
         {children}
       </EdgeStoreProvider>
       </body>
