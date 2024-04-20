@@ -21,8 +21,8 @@ const Jobs = () => {
 
       {filteredJobs.length < 1 ? (
         <div className="w-full text-center">
-          <h1 className="text-2xl">Aucune offre en ce moment</h1>
-          <span className="text-sm">Revenez plus tard</span>
+          <h1 className="text-2xl">Oops, aucune offre ne correspond à ta recherche</h1>
+          <span className="text-sm">Reviens plus tard ou regarde d'autres opportunités 😉</span>
         </div>
       ) : (
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 w-[90%] mx-auto max-w-[1400px]">

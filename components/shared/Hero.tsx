@@ -10,14 +10,14 @@ const Hero = ({jobs}) => {
       <div className="flex flex-col h-full items-center justify-center pt-[82px] gap-20 w-[90%] mx-auto max-w-[1450px]">
         <div className="text-center flex flex-col gap-3">
           <h1 className="text-6xl font-extrabold text-black">
-            Trouvez{" "}
+            Trouve{" "}
             <span className="text-purple-600 font-extrabold">
-              Le Job
+            Le Job
             </span>
-            , Que Vous Méritez
+              , Qui Te Correspond
           </h1>
           <span className="text-3xl font-thin">
-            100 offres premium, le job de vos rêves vous attend !
+            100 offres premium - le job de tes rêves t'attend !
           </span>
         </div>
         <SearchForm jobs={jobs} />
