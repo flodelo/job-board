@@ -1,7 +1,7 @@
 import React from 'react'
 import SearchForm from "./SearchForm";
 
-const Hero = ({jobs}) => {
+const Hero = ({jobs}:any) => {
   return (
     <div
       id="home"
