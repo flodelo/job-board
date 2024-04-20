@@ -1,4 +1,5 @@
 import Hero from "@/components/shared/Hero";
+import Jobs from "@/components/shared/Jobs";
 import { prisma } from "@/lib/prisma";
 
 const Home = async () => {
@@ -6,6 +7,7 @@ const Home = async () => {
   return (
     <>
       <Hero jobs={jobs} />
+      <Jobs />
     </>
   );
 };
